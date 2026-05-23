@@ -1,6 +1,6 @@
 import { useRef, useState, useEffect } from "react";
-import { MapPin, Coins } from "lucide-react";
-import { Card, CardHeader, CardContent, CardFooter } from "./card";
+import { MapPin } from "lucide-react";
+import { Card, CardHeader, CardFooter } from "./card";
 import { Button } from "./button";
 import { Badge } from "./badge";
 
@@ -67,7 +67,7 @@ export function JobCard({ job, onApply }) {
       className="relative flex flex-col justify-between overflow-hidden hover:border-text/30 hover:shadow-sm"
       style={{ maxWidth: "280px", width: "100%" }}
     >
-      <CardHeader className="p-4 pb-0 flex flex-col space-y-3">
+      <CardHeader className="p-4 pb-3 flex flex-col space-y-3">
         <div className="flex items-start justify-between gap-2 w-full">
           <div className="flex gap-3 items-center min-w-0 flex-1">
             <div
@@ -90,9 +90,9 @@ export function JobCard({ job, onApply }) {
           </div>
         </div>
 
-        {/* Salary, Location */}
+        {/* Location and Tags */}
         <div className="flex items-center justify-between gap-3 text-[11px] font-medium text-text w-full overflow-hidden">
-          {job.location ? (
+          {job.location && (
             <div className="flex items-center gap-1 min-w-0 flex-1 overflow-hidden">
               <MapPin className="w-3 h-3 text-text/70 shrink-0" />
               <HoverScrollingText
@@ -100,34 +100,24 @@ export function JobCard({ job, onApply }) {
                 className="text-[11px] font-medium text-text text-left"
               />
             </div>
-          ) : (
-            <div className="flex-1" />
           )}
-          {job.salary && (
-            <span className="flex items-center gap-1 text-emerald-600 dark:text-emerald-400 font-semibold shrink-0">
-              <Coins className="w-3 h-3 text-emerald-600 dark:text-emerald-400 shrink-0" />
-              {job.salary}
-            </span>
-          )}
+
+          {/* Tags on the right */}
+          <div
+            className="flex items-center gap-1 shrink-0 ml-auto"
+            aria-label="Tehnologii și competențe"
+          >
+            {((job.f_tag || []).length > 2
+              ? [...(job.f_tag || []).slice(0, 2), "..."]
+              : (job.f_tag || [])
+            ).map((tag, idx) => (
+              <Badge key={`${tag}-${idx}`} variant="secondary" className="text-[10px] px-1.5 py-0.5 whitespace-nowrap">
+                {tag}
+              </Badge>
+            ))}
+          </div>
         </div>
       </CardHeader>
-
-      <CardContent className="p-4 pt-3 flex-1 flex flex-col justify-between">
-        {/* Tags */}
-        <div
-          className="flex flex-wrap gap-1"
-          aria-label="Tehnologii și competențe"
-        >
-          {((job.f_tag || []).length > 2
-            ? [...(job.f_tag || []).slice(0, 2), "..."]
-            : (job.f_tag || [])
-          ).map((tag, idx) => (
-            <Badge key={`${tag}-${idx}`} variant="secondary">
-              {tag}
-            </Badge>
-          ))}
-        </div>
-      </CardContent>
 
       <CardFooter className="pb-0 px-0 pt-0 flex items-center">
         <Button
