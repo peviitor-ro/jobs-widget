@@ -18,11 +18,39 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 5 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.4.1. Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
-- sau a unui sistem intenționat și anumite specificații formale.
-- R.Î.4.2. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+**CP 4** – Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -37,7 +65,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Colocviu |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### A L GO R I TM I  F UNDA M EN T AL I
@@ -51,11 +78,52 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Ore/săptămână | 5 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
@@ -69,8 +137,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Noțiuni introductive de programare (cod sursă, cod obiect, compilare,
 - Structura unui program în C: includeri, antete de funcții și rolul lor,
@@ -80,6 +147,12 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Instrucțiuni de decizie. Instrucțiuni repetitive
 - Tipul char
 - Pointeri. Tablouri. Alocare dinamică.
+- Șiruri de caractere. String-uri.
+- Funcții în C. Transmiterea parametrilor în C
+- Structuri. Uniuni. Tipul enum.
+- Pointeri către structuri. Liste înlănțuite.
+- Prelucrarea fișierelor în C. Fluxuri standard C.
+- Funcții cu listă variabilă de argumente
 
 ---
 
@@ -95,11 +168,30 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 3 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.4.1. Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
-- algoritm sau a unui sistem intenționat și anumite specificații formale.
-- R.Î.4.2. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+
+#### Competențe transversale
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -115,11 +207,28 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 3 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.3.2. Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
-- interdisciplinare, având abilitatea de a analiza nevoile specifice ale unui proiect și de a alege soluții tehnologice
-- R.Î.3.4. Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -134,7 +243,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 1 |
-
 ---
 
 ### Limba Engleza 1
@@ -148,8 +256,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - 
 - Knowledge (continued). Reading to
@@ -171,8 +278,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Semestrul | I |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Fachwortschatz zum Thema „Lebenslauf“,
 - Fachwortschatz zum Thema: „Meine
@@ -195,11 +301,34 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 2 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
-- terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.3. Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor funcționale
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
 
 ---
 
@@ -214,11 +343,29 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 2 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.4.2. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
-- domenii ale informaticii.
-- R.Î.4.3. Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
@@ -234,13 +381,41 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.4.1. Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
-- sau a unui sistem intenționat și anumite specificații formale.
-- R.Î.4.2. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
 
-**Tematică curs:**
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul livrării
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor și
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile materiale
+
+#### Tematică curs
 
 - Pseudoinverse;
 - Spatii euclidiene
@@ -250,6 +425,11 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Spațiul vectorilor liberi
 - Planul și dreapta în spațiu
 - Conice
+- Cuadrice
+- Curbe plane
+- Curbe în spațiu
+- Generări de suprafețe
+- Suprafețe
 
 ---
 
@@ -265,11 +445,23 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.4. Absolventul poate să implementeze și să testeze componente software conform specificațiilor
-- funcționale și non-funcționale.
-- R.Î.2.8. Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații
 
 ---
 
@@ -283,7 +475,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### Structuri de date
@@ -291,20 +482,55 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Lect. dr. Ioana Cristina Plajer |
-| Titular seminar/laborator | Lect. dr. Ioana Cristina Plajer |
 | Anul | 1 |
 | Semestrul | 2 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere structuri de date.
 - Structuri de date elementare:
@@ -314,6 +540,14 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Tabele de dispersie. Aplicații.
 - Arbori oarecare: definiții,
 - Heap-uri binare. Coadă de priorități.
+- Arbori binari. Arbori binari de căutare.
+- Arbori binari de căutare echilibrați.
+- 1. Arbori AVL: definiție, proprietăți,
+- 2. Arbori Roșu-Negru: definiție,
+- B-arbori.
+- Structuri de date avansate.
+- Arbori pentru aplicații în plan
+- Sinteză și recapitulare pentru examen
 
 ---
 
@@ -322,20 +556,52 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Honorius Gâlmeanu |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 1 |
 | Semestrul | 2 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.3. Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
-- funcționalitatea aplicațiilor software.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor funcționale
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de viață.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor și
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile materiale
+
+#### Tematică curs
 
 - Scopul sistemelor de operare. Organizarea și arhitectura unui
 - Structurile sistemului de operare. Servicii. Interfața cu
@@ -345,6 +611,10 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Planificarea CPU-ului. Concepte. Algoritmi de planificare:
 - Primitive pentru sincronizarea proceselor. Condiții de
 - Probleme de sincronizare. Probleme clasice de
+- Alocarea memoriei (I). Alocarea contiguă. Protecția
+- Alocarea memoriei (II). Memoria virtuală. Paging la cerere.
+- Stocarea. Structura sistemelor de stocare. Stocarea pe
+- Recapitulare și exerciții pregătitoare pentru examen
 
 ---
 
@@ -359,7 +629,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 1 |
-
 ---
 
 ### Limba germană 1-2
@@ -372,8 +641,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Semestrul | I |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Fachwortschatz zum Thema „Lebenslauf“,
 - Fachwortschatz zum Thema: „Meine
@@ -396,8 +664,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - 
 - 
@@ -421,8 +688,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Noțiuni introductive legate de teoria grafurilor
 - Parcurgere parțială, parcurgere totală a grafurilor, sortare
@@ -432,6 +698,8 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Arborescențe
 - Distanțe și drumuri minime
 - Rețele. Flux într-o rețea. Tăietură minimă.. Rețea reziduală.
+- Flux maxim într-o rețea
+- Flux de cost minim
 
 ---
 
@@ -440,20 +708,62 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Alexandra Băicoianu |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 3 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere în domeniu, structura
 - Sisteme de rescriere.
@@ -463,6 +773,15 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - 1. Noțiuni generale
 - 2. Legătura dintre automate finite și
 - 3. Minimizarea automatelor finite
+- 4. Expresii regulate
+- Limbaje independente de context
+- 1 Gramatici IDC. Simplificarea
+- 2 Forme normale
+- 3 Automate push-down
+- Analiza lexicală și analiza sintactică.
+- 1 Analiza lexicală. Prima etapă a
+- 2 Analiza sintactică. Generator de
+- Sinteză și recapitulare pentru examen
 
 ---
 
@@ -477,11 +796,61 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+
+**CP5** – . Proiectarea, dezvoltarea şi gestiunea bazelor de date
+
+- Absolventul poate să proiecteze scheme de baze de date eficiente și bine structurate.
+- Absolventul poate să asigure integritatea și securitatea datelor din bazele de date.
+
+**CP6** – . Proiectarea, dezvoltarea, administrarea și asigurarea securității rețelelor de calculatoare
+
+- Absolventul poate să stabilească configurarea și administrarea principalele protocoale de rutare.
+- Absolventul poate să stabilească metodele de structurare și administrare a dispozitivelor de rețea.
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
 
 ---
 
@@ -490,18 +859,48 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Lect. dr. Aldea Constantin Lucian |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 3 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.3.1. Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
-- analiza și interpreta date din diferite domenii de activitate.
-- R.Î.3.2. Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP5** – . Proiectarea, dezvoltarea şi gestiunea bazelor de date
+
+- Absolventul poate să proiecteze scheme de baze de date eficiente și bine structurate.
+- Absolventul poate să asigure integritatea și securitatea datelor din bazele de date.
+- Absolventul poate să utilizeze limbaje de interogare pentru a accesa și manipula datele din bazele de
+- Absolventul poate să implementeze și să gestioneze sisteme de gestiune a bazelor de date (SGBD).
+- Absolventul poate să optimizeze performanța bazelor de date prin indexare și alte tehnici relevante.
+- Absolventul poate dezvolta interogări SQL complexe pentru a extrage, modifica și gestiona datele din
+- Absolventul aplică metode de migrare și de conversie a datelor existente pentru a transfera sau a
+- Absolventul elaborează documentația care conține informații despre baza de date care este relevantă
+- Absolventul aplică politici de securitate informatică, implementând politici, metode și reglementari
+
+#### Competențe transversale
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar și dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -516,11 +915,52 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -535,7 +975,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 1 |
-
 ---
 
 ### Sisteme moderne de modelare grafică 3D
@@ -548,11 +987,52 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 4 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -561,18 +1041,61 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Lect. dr. Majercsik Luciana |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 3 |
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -587,11 +1110,44 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
-- R.Î.1.3. Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
@@ -600,18 +1156,55 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Lect. dr. Aldea Constantin Lucian |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 3 |
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
-- și terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.6. Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic
+
+**CP5** – . Proiectarea, dezvoltarea şi gestiunea bazelor de date
+
+- Absolventul poate să asigure integritatea și securitatea datelor din bazele de date.
+- Absolventul aplică politici de securitate informatică, implementând politici, metode și reglementari
+
+**CP6** – . Proiectarea, dezvoltarea, administrarea și asigurarea securității rețelelor de calculatoare
+
+- Studentul/absolventul cunoaște și implementează cerințe de securitate informatică.
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi
+
+- Absolventul poate să administreze infrastructura hardware și software a sistemelor WEB și să
+- Absolventul poate să remedieze erorilor și vulnerabilitățile de securitate.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -626,8 +1219,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Power – Academic focus: reporting
 - Power (continued) – Conversation.
@@ -649,16 +1241,15 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Semestrul | III |
 | Credite | 5 |
 | Ore/săptămână | 2 |
+#### Tematică curs
 
-**Tematică curs:**
-
-- Fachwortschatz: „Im Ausland arbeiten”, Grammatik: der Nullartikel, Adjektivendungen im Dativ
-- Fachwortschatz: „Arbeitsbedingungen in der Industriewelt”, Grammatik: die Pronomen: jed-, welch-, beide, niemand
-- Fachwortschatz: „Netzwerke der deutsch-rumänischen Industriekammer”, Grammatik: Adjektive mit Partikeln
-- Fachwortschatz: „Umwelt und Recycling”, Grammatik: Futur I, Futur II
-- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der regelmäßigen Verben
-- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der unregelmäßigen Verben
-- Fachwortschatz: Dolmetscher auf Geschäftsreisen, Grammatik: das Passiv
+- Fachwortschatz: „Im Ausland arbeiten”,
+- Fachwortschatz: „Arbeitsbedingungen
+- Fachwortschatz: „Netzwerke der
+- Fachwortschatz: „Umwelt und
+- Fachwortschatz: Übersetzungen von
+- Fachwortschatz: Übersetzungen von
+- Fachwortschatz: Dolmetscher auf
 
 ---
 
@@ -674,11 +1265,46 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -694,11 +1320,32 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
 
 ---
 
@@ -713,12 +1360,27 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
+#### Competențe transversale
 
-**Competențe profesionale:**
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
 
-- C1. Programarea în limbaje de nivel înalt
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor și
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile materiale
 
 ---
 
@@ -727,18 +1389,50 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Andreea Fulga |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 4 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.3.1. Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
-- analiza și interpreta date din diferite domenii de activitate.
-- R.Î.3.2. Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -747,20 +1441,60 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Honorius Gâlmeanu |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 2 |
 | Semestrul | 1 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere. Probabilitate. Probabilităţi condiţionate.
 - Valori aşteptate. Variabilitate. Medie și deviație standard.
@@ -770,6 +1504,10 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Corelaţia şi regresia liniară. Metoda celor mai mici pătrate.
 - Modelul regresiei liniare. Coeficienții regresiei. Reziduuri.
 - Proprietăţile regresiei multi-variabilă. Heatmap pentru corelații.
+- Ajustări. Efectul grupului asupra răspunsului. Paradoxul
+- Alegerea modelului regresiei. Regresia multi-variabilă.
+- Algoritmul K-means pentru clustering. Exemplu intuitiv pentru
+- Sinteză și recapitulare pentru examen
 
 ---
 
@@ -784,7 +1522,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 1 |
-
 ---
 
 ### Dezvoltarea aplicațiilor în cloud
@@ -798,11 +1535,44 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.4. Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
-- Responsabilitate și autonomie
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de viață.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza și
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea interactivă
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile materiale
 
 ---
 
@@ -817,11 +1587,50 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor funcționale
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea interactivă
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
@@ -837,11 +1646,26 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.4. Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
-- Responsabilitate și autonomie
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să
 
 ---
 
@@ -857,11 +1681,23 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- ➢ R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- ➢ R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de
-- programare, inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și
+**CP1** – . Programarea în limbaje de nivel înalt:
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice:
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar:
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale:
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată și eficientă, a unor atitudini responsabile față de domeniul
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar și dezvoltarea capacităților
+
+**CT3** – Utilizarea unor metode și tehnici eficiente de învățare, informare, cercetare și dezvoltare a capacităților
 
 ---
 
@@ -876,8 +1712,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Noțiuni introductive despre comunicarea server-
 - Noțiuni generale de securitate si autentificare.
@@ -887,6 +1722,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Noțiuni avansate client - mobile.
 - Prezentarea unor softuri utilitare în gestionarea
 - Sesiune de lucru în echipa inter-modul în vederea
+- Sesiune de intrebari si raspunsuri; Ajutor și sfaturi
 
 ---
 
@@ -901,8 +1737,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 2 |
-
-**Tematică curs:**
+#### Tematică curs
 
 - Innovation and Invention. Reading:
 - Innovation and Invention (continued).
@@ -924,16 +1759,15 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Semestrul | III |
 | Credite | 5 |
 | Ore/săptămână | 2 |
+#### Tematică curs
 
-**Tematică curs:**
-
-- Fachwortschatz: „Im Ausland arbeiten”, Grammatik: der Nullartikel, Adjektivendungen im Dativ
-- Fachwortschatz: „Arbeitsbedingungen in der Industriewelt”, Grammatik: die Pronomen: jed-, welch-, beide, niemand
-- Fachwortschatz: „Netzwerke der deutsch-rumänischen Industriekammer”, Grammatik: Adjektive mit Partikeln
-- Fachwortschatz: „Umwelt und Recycling”, Grammatik: Futur I, Futur II
-- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der regelmäßigen Verben
-- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der unregelmäßigen Verben
-- Fachwortschatz: Dolmetscher auf Geschäftsreisen, Grammatik: das Passiv
+- Fachwortschatz: „Im Ausland arbeiten”,
+- Fachwortschatz: „Arbeitsbedingungen
+- Fachwortschatz: „Netzwerke der
+- Fachwortschatz: „Umwelt und
+- Fachwortschatz: Übersetzungen von
+- Fachwortschatz: Übersetzungen von
+- Fachwortschatz: Dolmetscher auf
 
 ---
 
@@ -944,18 +1778,39 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Cârstea Claudia |
-| Titular seminar/laborator | laborator/ proiect |
 | Anul | 3 |
 | Semestrul | 5 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
-- terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.2. Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor funcționale
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de viață.
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza și
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea interactivă
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
 
 ---
 
@@ -971,11 +1826,39 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi Internet
+
+- Absolventul poate să identifice și să evalueze cerințelor sistemului software.
+- Absolventul poate să analizeze și să proiecteze arhitectura sistemului software.
+- Absolventul poate să identifice și să rezolve problemele de performanță și scalabilitate.
+- Absolventul poate să proiecteze interfețe WEB pentru utilizator, integrând baze de date și algoritmi
+- Absolventul poate să administreze infrastructura hardware și software a sistemelor WEB și să
+- Absolventul poate să remedieze erorilor și vulnerabilitățile de securitate.
+- Absolventul poate să asigure compatibilitatea cu noile versiuni de tehnologii WEB.
+- Studentul/absolventul produce software și îl adaptează continuu la noile tehnologii și cerințe de piață.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
 
 ---
 
@@ -988,7 +1871,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### Practică de specialitate
@@ -996,18 +1878,48 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Lect.dr. Nicoleta Enache-David |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 3 |
 | Semestrul | 1 |
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 8 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
-- și terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.2. Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
 
 ---
 
@@ -1021,7 +1933,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Semestrul | 5 |
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
-
 ---
 
 ### Procesarea imaginilor digitale
@@ -1035,13 +1946,49 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul livrării
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere, etapele principale ale procesării imaginilor,
 - Îmbunătățirea imaginilor - operații punctuale
@@ -1051,6 +1998,21 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Segmentare de bază. Thresholding.
 - Filtrare în domeniul spațial:
 - 1 Reducerea zgomotului - filtrare trece-jos (filtrul medie
+- 2 Detectarea de contur - filtrare trece-sus (margini,
+- 3 Filtrare avansata
+- Operații morfologice (dilatare, erodare, opening, closing,
+- Transformări geometrice
+- 1 Interpolare
+- 2 Rotație, scalare, transformări proiective
+- Elemente de segmentare:
+- 1 Segmentarea pe baza histogramei - thresholding
+- 2 Segmentare bazată pe informație de contur -
+- 3. Segmentare bazată pe regiuni
+- Reprezentare și descriere. Texturi
+- Tehnici în domeniul frecvență
+- 1 Transformata Fourier
+- 2 Transformata cos
+- Sinteză și recapitulare pentru examen
 
 ---
 
@@ -1059,20 +2021,42 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Prof. Dr. Mihai PASCU |
-| Titular seminar/laborator | Prof. Dr. Mihai PASCU |
 | Anul | 3 |
 | Semestrul | 5 |
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.4.2. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
-- domenii ale informaticii.
-- R.Î.4.3. Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
 
-**Tematică curs:**
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Spatiu de probabilitate (sigma-algebră,
 - Aşteptare conditionată în raport cu o
@@ -1082,6 +2066,7 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Inegalităti şi teoreme de convergentă
 - Mişcarea
 - Integrala
+- Formula
 
 ---
 
@@ -1090,18 +2075,60 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Sorana Catrina (Harman international industries) |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 3 |
 | Semestrul | 5 |
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -1117,13 +2144,35 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
-- și terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.2. Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
 
-**Tematică curs:**
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților
+
+#### Tematică curs
 
 - Elemente de teoria generală a sistemelor din
 - Introducere în ingineria sistemelor soft: motivație,
@@ -1133,6 +2182,11 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Diagrame de stare
 - Prezentarea  tool-lui Visual Paradigm for UML
 - Diagrame de comunicare
+- Diagrame de activități. Diagrame de interacțiune.
+- Diagrame de pachete.
+- Diagrame de desfăşurare.
+- Diagrame de componente.
+- Proiectarea unui sistem informatic integrat pentru
 
 ---
 
@@ -1146,11 +2200,52 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 4 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -1165,13 +2260,49 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul livrării
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere în procesarea de imagini, reprezentarea
 - Algoritmi de bază
@@ -1181,6 +2312,8 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Algoritmi de codificare și compresie.
 - Algoritmi evolutivi în procesarea imaginilor.
 - Analiza și procesarea imaginilor bazată pe rețele neuronale.
+- Analiza imaginilor medicale.
+- Procesarea imaginilor multi și hiper - spectrale.
 
 ---
 
@@ -1194,7 +2327,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### Programare logică și funcțională
@@ -1209,11 +2341,19 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î. 4.1. Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
-- diverse domenii ale informaticii.
-- R.Î. 4.2. Absolventul poate sa utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+**CP1** – Programarea în limbaje de nivel înalt
+
+**CP3** – Utilizarea instrumentelor informatice în context interdisciplinar
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
 
 ---
 
@@ -1227,11 +2367,45 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 6 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
-- R.Î.1.3. Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să identifice și să evalueze riscurile asociate cu fiecare fază a ciclului de viață.
+- Absolventul poate să aplice măsuri de securitate pentru protejarea datelor pe tot parcursul ciclului de viață.
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea interactivă
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+
+**CP5** – . Proiectarea, dezvoltarea şi gestiunea bazelor de date
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi Internet
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
 
 ---
 
@@ -1240,20 +2414,56 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Proprietate | Valoare |
 |---|---|
 | Titular curs | Conf. dr. Honorius Gâlmeanu |
-| Titular seminar/laborator | laborator/proiect |
 | Anul | 3 |
 | Semestrul | 2 |
 | Evaluare | Examen |
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP5** – . Proiectarea, dezvoltarea şi gestiunea bazelor de date
+
+- Absolventul poate să proiecteze scheme de baze de date eficiente și bine structurate.
+- Absolventul poate să asigure integritatea și securitatea datelor din bazele de date.
+- Absolventul poate să utilizeze limbaje de interogare pentru a accesa și manipula datele din bazele de
+- Absolventul poate să implementeze și să gestioneze sisteme de gestiune a bazelor de date (SGBD).
+- Absolventul poate să optimizeze performanța bazelor de date prin indexare și alte tehnici relevante.
+- Absolventul poate dezvolta interogări SQL complexe pentru a extrage, modifica și gestiona datele din
+- Absolventul aplică metode de migrare și de conversie a datelor existente pentru a transfera sau a
+- Absolventul elaborează documentația care conține informații despre baza de date care este relevantă
+- Absolventul aplică politici de securitate informatică, implementând politici, metode și reglementari
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Proprietățile DBMS-urilor. Concepte cheie. Roluri. Modelul
 - SQL: select, relații și operatori, subquery-uri în clauza WHERE.
@@ -1263,6 +2473,8 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Descrierea modelelor relaționale cu UML
 - Indecși. Tranzacții. Proprietățile tranzacțiilor. Nivele de
 - Constrângeri. Integritate referențială. Triggers.
+- Triggers și proceduri stocate
+- Rezolvare supervizată de probleme pentru examen
 
 ---
 
@@ -1277,11 +2489,29 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.3.2. Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
-- interdisciplinare, având abilitatea de a analiza nevoile specifice ale unui proiect și de a alege soluții tehnologice
-- R.Î.3.4. Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile materiale
 
 ---
 
@@ -1296,11 +2526,47 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.2.1. Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
-- terminând cu exploatarea și menținerea sistemului.
-- R.Î.2.3. Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi Internet
+
+- Absolventul poate să identifice și să evalueze cerințelor sistemului software.
+- Absolventul poate să analizeze și să proiecteze arhitectura sistemului software.
+- Absolventul poate să identifice și să rezolve problemele de performanță și scalabilitate.
+- Absolventul poate să proiecteze interfețe WEB pentru utilizator, integrând baze de date și algoritmi eficienți
+- Absolventul poate să administreze infrastructura hardware și software a sistemelor WEB și să monitorizeze
+- Studentul/absolventul produce software și îl adaptează continuu la noile tehnologii și cerințe de piață.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
@@ -1316,13 +2582,40 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
-- inclusiv programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare,
+
+**CP3** – Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta,
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP4** – Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+
+#### Tematică curs
 
 - Introducere în modelele lingvistice. Aplicații ale LLM.
 - Seturi de date mari. Arhitectura GPT.
@@ -1332,6 +2625,8 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 - Mecanismul attention. Modelarea secvențelor lungi.
 - Implementarea self-attention. Causal attention mask.
 - Codarea unei arhitecturi LLM. Layer normalization pentru
+- Rețea feed-forward cu activări GELU. Shortcut connections.
+- Preantrenarea. Antrenarea. Strategii pentru controlul
 
 ---
 
@@ -1346,13 +2641,49 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 5 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
 
-**Tematică curs:**
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP4** – . Utilizarea bazelor teoretice ale informaticii și a modelelor formale
+
+- Absolventul poate să verifice corespondența dintre capacitățile, corectitudinea și eficienta unui algoritm
+- Absolventul poate să utilizeze modele formale și teorii matematice pentru a rezolva probleme din diverse
+- Absolventul poate să utilizeze concepte și tehnici matematice pentru a analiza și proiecta algoritmi și
+- Absolventul poate să utilizeze modele formale pentru a proiecta sisteme informatice sigure și fiabile.
+- Absolventul poate să utilizeze modele formale pentru a verifica corectitudinea programelor.
+- Studentul/absolventul construiește etic și responsabil soluții IT sigure și scalabile, colaborând cu specialiști
+- Studentul/absolventul dezvoltă un mediu colaborativ și își asumă responsabilitatea pentru succesul livrării
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
+
+#### Tematică curs
 
 - Introducere în procesarea de imagini, reprezentarea
 - Noțiuni fundamentale de Big Data și Cloud Computing
@@ -1374,7 +2705,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 4 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### Arhitectura aplicațiilor front-end folosind Angular
@@ -1387,11 +2717,61 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Credite | 4 |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de
+- Absolventul poate realiza documentație tehnică și manuale de utilizare pentru aplicațiile software,
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Absolventul poate implementa metode de testare și evaluare a software-ului, inclusiv testarea
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+**CP7** – . Analiza, proiectarea, dezvoltarea, administrarea și mentenanța sistemelor software pentru WEB şi Internet
+
+- Absolventul poate să identifice și să evalueze cerințelor sistemului software.
+- Absolventul poate să analizeze și să proiecteze arhitectura sistemului software.
+- Absolventul poate să identifice și să rezolve problemele de performanță și scalabilitate.
+- Absolventul poate să proiecteze interfețe WEB pentru utilizator, integrând baze de date și algoritmi
+- Absolventul poate să administreze infrastructura hardware și software a sistemelor WEB și să
+- Absolventul poate să remedieze erorilor și vulnerabilitățile de securitate.
+- Absolventul poate să asigure compatibilitatea cu noile versiuni de tehnologii WEB.
+- Studentul/absolventul produce software și îl adaptează continuu la noile tehnologii și cerințe de piață.
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze
+- Absolventul are capacitatea de a acționa în mod responsabil și etic în activitățile didactice și de cercetare,
+- Absolventul are abilitatea de a-și organiza și prioritiza activitățile pentru a asigura o muncă eficientă și
+
+**CT2** – Desfășurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii
+- Absolventul poate aplica tehnici de comunicare empatică, ascultând activ și răspunzând adecvat nevoilor
+- Absolventul poate adapta stilul de comunicare în funcție de contextul cultural și diversitatea grupului,
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
+- Absolventul poate evalua critic sursele de informație, identificând cele mai relevante și credibile
 
 ---
 
@@ -1406,7 +2786,6 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Credite | 5 |
 | Ore/săptămână | 4 |
-
 ---
 
 ### M O DE LA R E Ș I  O R CH ES T RA R E  C U L L M - UR I  Ș I  A G E NȚ I  A I
@@ -1419,11 +2798,47 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 | Evaluare | Verificare |
 | Ore/săptămână | 4 |
 
-**Competențe profesionale:**
+#### Competențe profesionale
 
-- R.Î.1.1. Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
-- R.Î.1.2. Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
-- programarea funcțională, orientată pe obiect și paralelă, utilizând limbaje și framework-uri actuale.
+**CP1** – . Programarea în limbaje de nivel înalt
+
+- Absolventul poate să scrie cod clar și bine structurat în limbaje de programare specifice.
+- Studentul/absolventul alege, descrie, analizează și explică paradigmele moderne de programare, inclusiv
+- Absolventul poate să utilizeze biblioteci și framework-uri pentru îmbunătățirea performanțelor și
+- Absolventul poate să dezvolte aplicații complexe cu cerințele propuse de către utilizatori.
+- Absolventul este capabil să organizeze, planifice și supravegheze dezvoltarea aplicațiilor și a cadrelor
+
+**CP2** – . Gestionarea ciclului de viață al aplicațiilor informatice
+
+- Absolventul poate să parcurgă ciclul de viață al unui sistem informatic, începând cu ancheta preliminară și
+- Absolventul poate să proiecteze soluții software eficiente și scalabile pentru fiecare fază a ciclului de viață.
+- Absolventul poate să implementeze și să testeze componente software conform specificațiilor funcționale
+- Absolventul poate să monitorizeze și să optimizeze performanța sistemului în faza de exploatare.
+- Absolventul poate să lucreze în echipă pentru a parcurge ciclul de viață al unui sistem informatic.
+
+**CP3** – . Utilizarea instrumentelor informatice în context interdisciplinar
+
+- Absolventul poate utiliza instrumente informatice (folosind tehnologii specifice) pentru a colecta, analiza și
+- Absolventul poate evalua și selecta instrumente informatice adecvate pentru rezolvarea problemelor
+- Studentul/absolventul dezvoltă interesul pentru literatura de specialitate națională și internațională,
+- Absolventul poate să comunice și să colaboreze eficient cu specialiști din alte domenii, utilizând
+
+#### Competențe transversale
+
+**CT1** – Aplicarea regulilor de muncă organizată şi eficientă, a unor atitudini responsabile față de domeniul didactic-
+
+- Absolventul este capabil să-și organizeze și gestioneze timpul și resursele pentru a atinge obiectivele de
+- Absolventul este capabil să desfășoare activitate creatoare, să se dezvolte profesional și să abordeze noi
+
+**CT2** – Desfăşurarea eficientă a activităților organizate într-un grup inter-disciplinar şi dezvoltarea capacităților
+
+- Absolventul va putea utiliza instrumente și tehnici de comunicare pentru a rezolva probleme și a dezvolta
+- Absolventul va relaționa și colabora cu grupuri diverse, inclusiv cu persoane din alte culturi sau medii socio-
+
+**CT3** – Utilizarea unor metode şi tehnici eficiente de învățare, informare, cercetare şi dezvoltare a capacităților de
+
+- Absolventul va utiliza metode și tehnici eficiente de învățare pentru a-și îmbunătăți performanța
+- Absolventul va utiliza instrumente și tehnici eficiente pentru a informa și comunica informații complexe
 
 ---
 
