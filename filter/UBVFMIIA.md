@@ -652,13 +652,13 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 
 **Tematică curs:**
 
-- Fachwortschatz: „Im Ausland arbeiten”,
-- Fachwortschatz: „Arbeitsbedingungen
-- Fachwortschatz: „Netzwerke der
-- Fachwortschatz: „Umwelt und
-- Fachwortschatz: Übersetzungen von
-- Fachwortschatz: Übersetzungen von
-- Fachwortschatz: Dolmetscher auf
+- Fachwortschatz: „Im Ausland arbeiten”, Grammatik: der Nullartikel, Adjektivendungen im Dativ
+- Fachwortschatz: „Arbeitsbedingungen in der Industriewelt”, Grammatik: die Pronomen: jed-, welch-, beide, niemand
+- Fachwortschatz: „Netzwerke der deutsch-rumänischen Industriekammer”, Grammatik: Adjektive mit Partikeln
+- Fachwortschatz: „Umwelt und Recycling”, Grammatik: Futur I, Futur II
+- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der regelmäßigen Verben
+- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der unregelmäßigen Verben
+- Fachwortschatz: Dolmetscher auf Geschäftsreisen, Grammatik: das Passiv
 
 ---
 
@@ -927,13 +927,13 @@ Fișe de disciplină pentru programul de licență **Informatică Aplicată** (U
 
 **Tematică curs:**
 
-- Fachwortschatz: „Im Ausland arbeiten”,
-- Fachwortschatz: „Arbeitsbedingungen
-- Fachwortschatz: „Netzwerke der
-- Fachwortschatz: „Umwelt und
-- Fachwortschatz: Übersetzungen von
-- Fachwortschatz: Übersetzungen von
-- Fachwortschatz: Dolmetscher auf
+- Fachwortschatz: „Im Ausland arbeiten”, Grammatik: der Nullartikel, Adjektivendungen im Dativ
+- Fachwortschatz: „Arbeitsbedingungen in der Industriewelt”, Grammatik: die Pronomen: jed-, welch-, beide, niemand
+- Fachwortschatz: „Netzwerke der deutsch-rumänischen Industriekammer”, Grammatik: Adjektive mit Partikeln
+- Fachwortschatz: „Umwelt und Recycling”, Grammatik: Futur I, Futur II
+- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der regelmäßigen Verben
+- Fachwortschatz: Übersetzungen von Fachtexten, Grammatik: Präteritum der unregelmäßigen Verben
+- Fachwortschatz: Dolmetscher auf Geschäftsreisen, Grammatik: das Passiv
 
 ---
 
