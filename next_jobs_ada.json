@@ -15,7 +15,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 95,
-    "reason": "Internship software developer in Cluj — perfect pentru nivelul tău."
+    "reason": "Internship software dev, perfect fit for student level and skills"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/junior-software-developer-91",
@@ -33,7 +33,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 90,
-    "reason": "Junior dev role, potrivit pentru început de carieră."
+    "reason": "Junior dev role, ideal for entry-level software career"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-developer-software-engineer-helpdesk-17",
@@ -50,8 +50,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 65,
-    "reason": "Componenta de Helpdesk nu e ideală, dar partea de software dev contează."
+    "matchPercentage": 55,
+    "reason": "Mix of dev and helpdesk, low salary, partially relevant"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/inginer-software-industrial-plc-scada-4",
@@ -68,8 +68,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "PLC/SCADA se aliniază cu skill-urile de automatizări și embedded."
+    "matchPercentage": 80,
+    "reason": "Industrial software & automation, relevant to embedded/automation skills"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-software-developer-174",
@@ -86,8 +86,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "C# developer, potrivit pentru nivel mid/junior."
+    "matchPercentage": 85,
+    "reason": "C# dev role, good for a software-oriented student"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-tester-414",
@@ -104,8 +104,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 45,
-    "reason": "Testing entry-level, tangențial cu skill-urile, dar preferi development."
+    "matchPercentage": 70,
+    "reason": "Entry-level testing, decent opportunity but not core dev"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-engineer-backend-4",
@@ -123,7 +123,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 85,
-    "reason": "Backend engineer, junior/mid, se potrivește cu cunoștințele tale."
+    "reason": "Backend dev, great fit for software engineering skills"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/software-engineer-security-firmware",
@@ -141,7 +141,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 92,
-    "reason": "Security + firmware = match perfect cu embedded și rețele/securitate."
+    "reason": "Perfect match: embedded + security, both in Ada's skillset"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/aws-engineer-2",
@@ -158,8 +158,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 75,
-    "reason": "Cloud engineering, relevant pentru skill-urile IT generale."
+    "matchPercentage": 65,
+    "reason": "Cloud engineering, somewhat relevant but requires deeper AWS knowledge"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/devops-engineer-aws-specialist",
@@ -176,8 +176,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 75,
-    "reason": "DevOps, relevant pentru cunoștințele de IT și rețele."
+    "matchPercentage": 60,
+    "reason": "DevOps role, partially relevant, low salary"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/qa-engineer-tester-8",
@@ -194,26 +194,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 50,
-    "reason": "QA entry-level, parțial relevant, dar preferi development."
-  },
-  {
-    "url": "https://www.randstad.ro/locuri-de-munca/sales-engineer_timisoara_5153/",
-    "title": "Sales Engineer",
-    "company": "RANDSTAD ROMANIA",
-    "location": [
-      "Timisoara"
-    ],
-    "salary": [
-      "9000-10000 RON"
-    ],
-    "date": "2026-05-29T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 55,
-    "reason": "Robotică & automatizări industriale — domeniul e relevant, dar e rol de vânzări."
+    "matchPercentage": 75,
+    "reason": "QA/testing role, good entry-level opportunity in tech"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/middle-data-engineer-5",
@@ -230,8 +212,26 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 85,
-    "reason": "Data engineering, se aliniază cu AI/ML și programare."
+    "matchPercentage": 80,
+    "reason": "Data engineering, relevant to AI/ML and software skills"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/microsoft-support-engineer-1",
+    "title": "Microsoft Support Engineer",
+    "company": "COMPUTACENTER",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "900-1050 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 40,
+    "reason": "Support role, low technical growth, but entry-level IT"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/edi-integration-developer-backend-developer",
@@ -248,8 +248,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 80,
-    "reason": "Backend developer remote, junior/mid, potrivit."
+    "matchPercentage": 75,
+    "reason": "Backend dev, good match for software skills, low salary"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/shopify-developer-3",
@@ -266,44 +266,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 60,
-    "reason": "Web development, tangențial cu skill-urile web."
-  },
-  {
-    "url": "https://8ore.ro/locuri-de-munca/wordpress-developer",
-    "title": "WordPress Developer",
-    "company": "PERRFECT.SITE",
-    "location": [
-      "Brasov"
-    ],
-    "salary": [
-      "3000 RON"
-    ],
-    "date": "2026-05-10T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 65,
-    "reason": "Web dev open-source, menționează și IoT — interesant dar nu ideal."
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/frontend-developer-384",
-    "title": "Frontend Developer",
-    "company": "CURRICULO",
-    "location": [
-      "Remote"
-    ],
-    "salary": [
-      "1000-1200 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 60,
-    "reason": "Web development relevant, dar focus pe frontend; Ada are cunostinte web"
+    "matchPercentage": 55,
+    "reason": "Web dev (Shopify), decent but narrow tech stack"
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/java-developer-1192",
@@ -321,7 +285,7 @@
       "UTCNAC"
     ],
     "matchPercentage": 85,
-    "reason": "Java e in setul de skill-uri; potrivit pentru internship/junior"
+    "reason": "Java, remote, salariu de junior (1500-3000 RON). Se potrivește perfect cu skill-urile."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/c-developer-307",
@@ -338,134 +302,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 90,
-    "reason": "C++ e un skill principal; salariu mic dar potrivit pentru nivel junior"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/mobile-developer-63",
-    "title": "Mobile Developer",
-    "company": "C4MEDIA",
-    "location": [
-      "Remote"
-    ],
-    "salary": [
-      "1075-1190 RON"
-    ],
-    "date": "2026-05-03T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 50,
-    "reason": "Java poate fi folosit pentru Android, dar nu e focus principal"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/fullstack-php-web-developer-1",
-    "title": "Fullstack PHP Web Developer",
-    "company": "MDUNDO.COM",
-    "location": [
-      "Remote"
-    ],
-    "salary": [
-      "1500 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 45,
-    "reason": "Web development partial relevant, dar PHP nu e skill principal"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/react-developer-100",
-    "title": "React Developer",
-    "company": "UPFIT",
-    "location": [
-      "Timisoara Romania"
-    ],
-    "salary": [
-      "1000-2000 RON"
-    ],
-    "date": "2026-05-28T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 55,
-    "reason": "React e web development, Ada are cunostinte web de baza"
-  },
-  {
-    "url": "https://ijcjobs.com/job/programator-wordpress/",
-    "title": "Căutăm Programator WordPress!",
-    "company": "IJCJOBS",
-    "location": [
-      "Tg. Mures"
-    ],
-    "salary": [
-      "7000-7000 RON"
-    ],
-    "date": "2026-06-04T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 40,
-    "reason": "WordPress e web development, dar focus pe PHP si pluginuri"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/programator-net-64",
-    "title": "Programator .NET",
-    "company": "TOPDEV SYSTEMS",
-    "location": [
-      "Ploiesti, Romania"
-    ],
-    "salary": [
-      "800-1600 RON"
-    ],
-    "date": "2026-06-04T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 65,
-    "reason": ".NET/C# transferabil din Java/C++; salariu potrivit pentru junior"
-  },
-  {
-    "url": "https://mediere.anofm.ro/app/module/mediere/job/3194127",
-    "title": "PROGRAMATOR DE SISTEM INFORMATIC",
-    "company": "SOCUB SRL",
-    "location": [
-      "Hanu conachi"
-    ],
-    "salary": [
-      "5000 RON"
-    ],
-    "date": "2026-05-08T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 55,
-    "reason": "Automatizari/control - se potriveste cu skill-urile de automatizari"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/angajam-programator-full-stack",
-    "title": "Angajam Programator Full Stack",
-    "company": "ALECU ALEXANDRU",
-    "location": [
-      "Bucuresti"
-    ],
-    "salary": [
-      "1400-1900 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 55,
-    "reason": "Full stack web development, relevant pentru cunostintele web"
+    "matchPercentage": 80,
+    "reason": "C++, remote, salariu mic dar relevant. Se aliniază cu skill-urile de programare."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/programator-python-14",
@@ -482,44 +320,8 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 90,
-    "reason": "Python e skill principal; potrivit pentru internship/junior"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/programator-c-net-8",
-    "title": "Programator C# / .NET",
-    "company": "NOVA INDUSTRIAL",
-    "location": [
-      "Bucharest, Romania"
-    ],
-    "salary": [
-      "1615-1785 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 65,
-    "reason": "C#/.NET transferabil din Java/C++; salariu bun pentru junior"
-  },
-  {
-    "url": "https://www.bestjobs.eu/loc-de-munca/it-helpdesk-engineer-on-site-internal-it-support",
-    "title": "IT Helpdesk Engineer (On-site Internal IT Support)",
-    "company": "ELTEK MULTIMEDIA",
-    "location": [
-      "Voluntari, Romania"
-    ],
-    "salary": [
-      "1000-1800 RON"
-    ],
-    "date": "2026-06-04T00:00:00Z",
-    "status": "published",
-    "f_tag": [
-      "UTCNAC"
-    ],
-    "matchPercentage": 40,
-    "reason": "Helpdesk/support entry-level, partial relevant pentru experienta IT"
+    "matchPercentage": 80,
+    "reason": "Python, salariu junior. Se potrivește perfect cu skill-urile."
   },
   {
     "url": "https://www.bestjobs.eu/loc-de-munca/tehnician-it-291",
@@ -536,7 +338,205 @@
     "f_tag": [
       "UTCNAC"
     ],
-    "matchPercentage": 35,
-    "reason": "Tehnician IT entry-level, partial relevant dar nu programare"
+    "matchPercentage": 70,
+    "reason": "IT support entry-level, se potriveste cu cunostintele de OS/retele"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/it-support-specialist-90",
+    "title": "IT Support Specialist",
+    "company": "CALIROM",
+    "location": [
+      "Floresti"
+    ],
+    "salary": [
+      "800 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 65,
+    "reason": "Suport IT entry-level, relevant pentru skill-uri generale IT"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/it-adminisrator",
+    "title": "IT ADMINISRATOR",
+    "company": "PROCAD",
+    "location": [
+      "Timisoara, Romania"
+    ],
+    "salary": [
+      "1000 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 60,
+    "reason": "Administrare IT entry-level, relevant"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/administrator-it-45",
+    "title": "Administrator IT",
+    "company": "CONNEXIAL RO",
+    "location": [
+      "Bucuresti"
+    ],
+    "salary": [
+      "800-1100 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 60,
+    "reason": "Administrare IT entry-level, relevant"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/it-tehnician-16",
+    "title": "IT Tehnician",
+    "company": "KONTRON SERVICES",
+    "location": [
+      "Floresti"
+    ],
+    "salary": [
+      "1030-1135 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 65,
+    "reason": "Tehnician IT entry-level, relevant"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/ai-instructor-applied-ai-coach-b2b-1",
+    "title": "AI Instructor & Applied AI Coach (B2B)",
+    "company": "SYNARA TECH",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "1500-2300 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 75,
+    "reason": "Rol AI, se potriveste cu skill-urile de AI/ML"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/dezvoltator-aplicatii-ai",
+    "title": "Dezvoltator aplicații AI",
+    "company": "FINCODE",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "950-1200 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 90,
+    "reason": "Dezvoltare AI, remote, perfect pentru skill-urile studentei"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/softwareentwickler",
+    "title": "Softwareentwickler",
+    "company": "AI LEGAL DATA SERVICES",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "1500-1900 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 80,
+    "reason": "Dezvoltare software, remote, potrivit pentru junior"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/python-developer-for-ai-startup",
+    "title": "Python Developer for AI startup",
+    "company": "XREACHER",
+    "location": [
+      "Sheridan"
+    ],
+    "salary": [
+      "1500 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 90,
+    "reason": "Python + AI startup, match excelent cu skill-urile"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/data-specialist-10",
+    "title": "Data Specialist",
+    "company": "KLIPPA AI BACK OFFICE",
+    "location": [
+      "Brasov"
+    ],
+    "salary": [
+      "550 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 70,
+    "reason": "Rol data entry-level, relevant pentru AI/ML"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/ai-enthusiast-data-devloper",
+    "title": "AI Enthusiast / Data Devloper",
+    "company": "IQORE",
+    "location": [
+      "Cluj-Napoca"
+    ],
+    "salary": [
+      "3000-5000 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 90,
+    "reason": "AI/Data in Cluj-Napoca, perfect pentru profilul studentei"
+  },
+  {
+    "url": "https://www.bestjobs.eu/loc-de-munca/technical-conference-speaker-ai-future-tech",
+    "title": "Technical Conference Speaker (AI & Future Tech)",
+    "company": "BESTJOBS",
+    "location": [
+      "Remote"
+    ],
+    "salary": [
+      "1500 RON"
+    ],
+    "date": "2026-05-14T00:00:00Z",
+    "status": "published",
+    "f_tag": [
+      "UTCNAC"
+    ],
+    "matchPercentage": 40,
+    "reason": "Rol de speaking, nu dezvoltare, dar tematica AI relevanta"
   }
 ]
