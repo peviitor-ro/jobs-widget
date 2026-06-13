@@ -124,9 +124,8 @@ function App() {
   }
 
   return (
-    <div
-      className="w-full min-h-screen bg-bg text-text transition-colors duration-200 flex flex-col items-center justify-center p-6 md:p-12 gap-8"
-    >
+    <div className="w-full h-screen overflow-y-auto bg-bg text-text transition-colors duration-200">
+     <div className="min-h-screen flex flex-col items-center justify-center p-6 md:p-12 gap-8">
       <div className="text-center max-w-xl">
         <h1 className="text-4xl md:text-5xl font-extrabold text-text-h m-0 tracking-tight leading-tight">
           Portal Carieră
@@ -233,6 +232,7 @@ function App() {
           </div>
         </Card>
       </div>
+     </div>
     </div>
   );
 }
