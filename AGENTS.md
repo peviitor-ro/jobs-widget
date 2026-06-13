@@ -3,16 +3,20 @@
 ## Fluxul datelor
 
 ```
-peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  ──►  jobs_ada_matched.json
-                                                                              │
-                                                                              ▼
-                                                                      jobs_100.json (subset pentru frontend)
+peviitor API  ──►  fetch_agent_jobs.mjs --all  ──►  agenți (opencode)  ──►  next_jobs_<agent>.json
+                                                                                   │
+                                                                                   ▼
+                                                                       merge_jobs.mjs (promovare)
+                                                                                   │
+                                                                                   ▼
+                                                                       jobs_100.json (citit de widget)
 ```
 
 1. **Surse joburi**: API-ul peviitor (`https://api.peviitor.ro/v1/search/`) interogat cu termeni ca `software`, `engineer`, `developer`, `programator`, `it`, `ai`, `data`, `embedded`, `automation`, `robot`, `python`, `java`, `web`, `internship`, `intern`, `junior`.
-2. **Script**: `scripts/ada_check.mjs` adună joburile unice, extrage descrierile, și le trimite agenților AI.
-3. **Agenți AI**: Fiecare agent analizează descrierile și decide dacă jobul se potrivește cu skill-urile persoanei pe care o reprezintă.
-4. **Rezultat**: Joburile matcheate primesc `f_tag`-ul agentului respectiv și sunt salvate în `jobs_ada_matched.json`.
+2. **Script**: `scripts/fetch_agent_jobs.mjs --all` adună joburile unice, extrage descrierile, și le trimite tuturor agenților AI.
+3. **Agenți AI**: Fiecare agent analizează descrierile și decide dacă jobul se potrivește cu skill-urile persoanei pe care o reprezintă. Rezultatul fiecărui agent se salvează în `next_jobs_<agent>.json` (cu `f_tag`-ul agentului).
+4. **Promovare**: `scripts/merge_jobs.mjs` îmbină toate fișierele `next_jobs_*.json` în `jobs_100.json` — adaugă joburile noi, reunește `f_tag`-urile pentru joburile existente și elimină câmpurile de matching (`matchPercentage`, `reason`). E aditiv: nu șterge nimic.
+5. **Automatizare**: workflow-ul `.github/workflows/fetch-jobs.yml` rulează pașii 1-4 automat (Lu/Mi/Vi, 06:00 UTC) și face commit la `next_jobs_*.json` + `jobs_100.json`. Astfel agenții noi (ex. Sofia) sunt incluși fără modificări suplimentare — `--all` îi rulează, iar `merge_jobs.mjs` le preia automat output-ul.
 
 ---
 
@@ -84,7 +88,9 @@ Vezi `INSTRUCTIONS.md` — pașii sunt:
 
 | Fișier | Rol |
 |--------|-----|
-| `scripts/ada_check.mjs` | Script principal: extrage joburi din API, rulează agenții, generează `jobs_ada_matched.json` |
+| `scripts/fetch_agent_jobs.mjs` | Extrage joburi din API, rulează agenții (`--all` = toți), generează `next_jobs_<agent>.json` |
+| `scripts/merge_jobs.mjs` | Promovează `next_jobs_*.json` în `jobs_100.json` (adaugă joburi, reunește `f_tag`-uri) |
+| `.github/workflows/fetch-jobs.yml` | Workflow programat care leagă fetch → match → merge → commit |
 | `agents/Ada.md` | Profilul agentului Ada (prompt + skill-uri) |
 | `agents/Medeea.md` | Profilul agentului Medeea (prompt + skill-uri) |
 | `agents/Sofia.md` | Profilul agentului Sofia (prompt + skill-uri) |

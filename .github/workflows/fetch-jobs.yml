@@ -23,14 +23,17 @@ jobs:
       - name: Run all agents
         run: node scripts/fetch_agent_jobs.mjs --all
 
-      - name: Commit & push next_jobs_*.json
+      - name: Merge matched jobs into jobs_100.json
+        run: node scripts/merge_jobs.mjs
+
+      - name: Commit & push updated jobs
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add next_jobs_*.json
+          git add next_jobs_*.json jobs_100.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: update next_jobs_* ($(date -u +%Y-%m-%d))"
+            git commit -m "auto: update jobs ($(date -u +%Y-%m-%d))"
             git push
           fi
