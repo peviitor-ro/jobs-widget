@@ -1,6 +1,5 @@
 # Cursuri FMI UBB Cluj — Toate specializările (2025-2026)
 
-> **Sursa:** [cs.ubbcluj.ro](https://www.cs.ubbcluj.ro) — Planuri de învățământ și liste opționale alese, an universitar 2025-2026  
 > **Notă:** Cursurile opționale reflectă lista **aleasă** pentru 2025-2026, nu cea propusă.
 
 ---
