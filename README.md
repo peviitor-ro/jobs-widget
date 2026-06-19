@@ -23,11 +23,17 @@ Colectăm toate locurile de muncă de pe [peviitor.ro](https://peviitor.ro) și,
 
 ## Local tag:
 
-După ce am făcut fork la repo, în local_tag.md, în root, scriem tag-ul folosit de această facultate.
+După ce am făcut fork la repo, în conf/local_tag.md, în root, scriem tag-ul folosit de această facultate.
+Tot aici punem si sursa de unde isi va lua agentul materiile si va deduce si skillurile studentului.
 
 ## Lista materii:
 
-In dir filter/ punem un fisier .md care are ca nume tagul mentionat anterior, cu lista de materii.
+In dir filter/ punem un fisier .md care are ca nume tagul mentionat in conf/local_tag.md, cu lista de materii, folosind sursa sa extragem materiile + cursurile + sa deducem skillurile studentului.
+Acest fisier din filter/ va fi generat cu un prompt in opencode prin GitHUB AGENTS
+
+## Cream un student.md
+student.md va fi in folderul agents si va contine un prompt care va fi inspirat din Ada,md si Medeea.md si va fi personalizat pe baza celor extrase in folderul filter/
+student.md va fi generat cu un prompt de catre opencode si rulat in GitHUB Actions.
 
 ## Widget Incorporabil
 
