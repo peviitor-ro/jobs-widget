@@ -1,20 +1,18 @@
 [
   {
-    "url": "https://www.bestjobs.eu/loc-de-munca/junior-software-developer-91",
-    "title": "Junior Software Developer",
-    "company": "SAFECODER SOFTWARE",
+    "url": "https://tickbird.zohorecruit.eu/jobs/Careers/17979000001091060/Junior-C-C-Software-Engineer?source=CareerSite",
+    "title": "Junior C/C++ Software Engineer",
+    "company": "TICKBIRD S.R.L.",
     "location": [
-      "Iasi, Romania"
+      "România"
     ],
-    "salary": [
-      "1410-1560 RON"
-    ],
-    "date": "2026-05-14T00:00:00Z",
-    "status": "published",
+    "salary": null,
+    "date": "2026-06-24T08:47:56.603Z",
+    "status": "scraped",
     "f_tag": [
       "UBVFMIIA"
     ],
-    "matchPercentage": 78,
-    "reason": "Titlul e clar de junior si skill-urile mele de programare (Java, Python, C++) se potrivesc. Program partial remote ajuta, dar salariul e mic si orasul (Iasi) e departe de Brasov."
+    "matchPercentage": 92,
+    "reason": "Junior C/C++ role perfect pentru skillurile mele: C/C++, OOP, SDA, SO. Remote si salariu nedeclarat, dar potrivit pentru nivel junior/internship."
   }
 ]
