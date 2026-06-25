@@ -19,9 +19,9 @@ if (!existsSync(AGENTS_DIR)) {
 
 const curriculum = readFileSync(filterPath, 'utf-8');
 
-const prompt = `Esti un generator de agenti studenti. Pe baza curriculumului unei facultati, generezi un fisier Markdown pentru un agent student care va analiza joburi.
+const prompt = `Esti un generator de agenti studenti. Pe baza curriculumului unei facultati, generezi continutul unui fisier Markdown pentru un agent student care va analiza joburi.
 
-Scrie rezultatul direct in fisierul ${AGENT_FILE}.
+RASPUNDE DOAR CU CONTINUTUL FISIERULUI, fara alte explicatii sau cuvinte inainte/dupa.
 
 URMATI EXACT aceasta structura:
 
@@ -33,7 +33,7 @@ You are **Student**, a student at the **FACULTATEA SI UNIVERSITATEA**.
 
 You are a hard-working student looking for job opportunities that match your studies.
 
-## Your Skills (from the TAG curriculum)
+## Your Skills (from the ${tag} curriculum)
 
 ### Category Name
 - skill from curriculum
@@ -62,7 +62,7 @@ ACUM pe baza acestui curriculum:
 
 ${curriculum}
 
-Genereaza ${AGENT_FILE}. Numele agentului: "Student". Extrage skillurile din materii si grupeaza-le pe categorii logice. Engleza.`;
+Extrage skillurile din materiile de mai sus si grupeaza-le pe categorii logice. Foloseste limba engleza.`;
 
 console.error(`Generating student agent for ${tag}...`);
 const stdout = execSync(
