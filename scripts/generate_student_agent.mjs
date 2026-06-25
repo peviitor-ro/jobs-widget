@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { execSync } from 'child_process';
 
-const TAG_PATH = 'local_tag.md';
+const TAG_PATH = 'conf/local_tag.md';
 const AGENTS_DIR = 'agents';
 const AGENT_FILE = `${AGENTS_DIR}/student.md`;
 

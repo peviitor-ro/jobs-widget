@@ -1,7 +1,7 @@
 import { readFileSync } from 'fs';
 import { execSync } from 'child_process';
 
-const TAG_FILE = 'local_tag.md';
+const TAG_FILE = 'conf/local_tag.md';
 
 function readTagFile() {
   const text = readFileSync(TAG_FILE, 'utf-8').trim();

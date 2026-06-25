@@ -3,7 +3,7 @@ import { execFileSync } from 'child_process';
 
 const TARGET_MATCHED = 30;
 const BATCH = 25;
-const TAG_PATH = 'local_tag.md';
+const TAG_PATH = 'conf/local_tag.md';
 const AGENT_PATH = 'agents/student.md';
 const OUTPUT_PATH = 'jobs_100.json';
 

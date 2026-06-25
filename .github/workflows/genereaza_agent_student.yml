@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-      - 'local_tag.md'
+      - 'conf/local_tag.md'
 
 permissions:
   contents: write
@@ -27,7 +27,7 @@ jobs:
       - name: Parse local_tag.md
         id: parse
         run: |
-          LINE=$(head -1 local_tag.md | tr -d '\n\r')
+          LINE=$(head -1 conf/local_tag.md | tr -d '\n\r')
           TAG=$(echo "$LINE" | sed 's/ sursa:.*//')
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           echo "Tag: $TAG"
