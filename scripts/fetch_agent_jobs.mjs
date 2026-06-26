@@ -1,11 +1,11 @@
 import { readFileSync, writeFileSync } from 'fs';
-import { execFileSync } from 'child_process';
+import { execSync } from 'child_process';
 
 const TARGET_MATCHED = 30;
 const BATCH = 25;
-const TAG_PATH = 'local_tag.md';
+const TAG_PATH = 'conf/local_tag.md';
 const AGENT_PATH = 'agents/student.md';
-const OUTPUT_PATH = 'jobs_100.json';
+const OUTPUT_PATH = 'jobs.json';
 
 function readTag() {
   const text = readFileSync(TAG_PATH, 'utf-8').trim();
@@ -18,10 +18,9 @@ function readAgentPrompt() {
 }
 
 function runOpencode(promptText, timeout = 180000) {
-  const stdout = execFileSync('opencode', [
-    'run', '--model', 'opencode/big-pickle', '--format', 'json',
-    '--dangerously-skip-permissions', promptText,
-  ], { timeout, encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 });
+  const stdout = execSync(
+    `opencode run --model opencode/big-pickle --format json --dangerously-skip-permissions`,
+    { input: promptText, timeout, encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024, shell: true });
 
   let text = '';
   for (const line of stdout.split('\n').filter(l => l.trim())) {
@@ -31,22 +30,26 @@ function runOpencode(promptText, timeout = 180000) {
 }
 
 function extractJsonArray(text) {
-  const match = text.match(/\[[\s\S]*\]/);
-  return match ? JSON.parse(match[0]) : [];
+  const stripped = text.replace(/```json\s*|\s*```/g, '');
+  const match = stripped.match(/\[[\s\S]*?\]/);
+  if (!match) return [];
+  try { return JSON.parse(match[0]); } catch { return []; }
 }
 
 function generateKeywords(agentPrompt) {
   const prompt = `${agentPrompt}
 
-Based on the skills and profile above, generate a JSON array of the 25 most relevant single-word or short-phrase search keywords to find suitable job opportunities for this student on a job search API.
+Based on the skills and profile above, generate a JSON array of 30 single-word or short-phrase search keywords to find suitable job opportunities for this student on a Romanian job search API (peviitor.ro).
 
 Rules:
 - Each keyword should be a short string (1-3 words)
-- Include technical skills (e.g. "python", "java", "machine learning")
-- Include job level keywords (e.g. "internship", "junior", "software engineer")
-- Focus on what this specific student would apply for
+- Include specific skills from the profile (e.g. languages, tools, domains)
+- Include general entry-level keywords: "internship", "junior", "entry level", "student"
+- Include broad categories: "administrativ", "call center", "customer support", "data entry", "content"
+- Cover diverse areas a humanities student could work in: "translator", "editor", "redactor", "scriitor", "PR", "marketing", "resurse umane", "secretara", "operator"
+- Focus on finding ANY suitable jobs, not just perfect matches
 
-Return ONLY the JSON array, no other text. Example: ["python", "java", "internship", "software"]`;
+Return ONLY the JSON array, no other text. Example: ["internship", "junior", "translator", "editor", "administrativ"]`;
 
   const result = runOpencode(prompt);
   return extractJsonArray(result);
@@ -64,11 +67,14 @@ async function getDesc(job) {
     const text = html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
     const idx = text.search(/about.?the.?job|descrierea.?postului|descriere/i);
     return idx > 0 ? text.slice(idx, idx + 2000) : text.slice(0, 1500);
-  } catch { return ''; }
+  } catch (e) { process.stderr.write(`    getDesc error for ${job.title}: ${e}\n`); return ''; }
 }
 
 const tag = readTag();
-const agentPrompt = readAgentPrompt();
+let agentPrompt = readAgentPrompt();
+
+// Taie sectiunea ## Output Format ca sa nu contrazica instructiunile de evaluare
+agentPrompt = agentPrompt.replace(/\n## Output Format[\s\S]*$/, '');
 
 process.stdout.write(`Tag: ${tag}\n`);
 
@@ -83,9 +89,25 @@ for (const q of keywords) {
     const r = await fetch(`https://api.peviitor.ro/v1/search/?q=${encodeURIComponent(q)}&page=1`);
     const d = await r.json();
     for (const doc of d.response?.docs || []) {
-      if (!seen.has(doc.id)) { seen.add(doc.id); allJobs.push(doc); }
+      const key = doc.url || doc.title || JSON.stringify(doc);
+      if (!seen.has(key)) { seen.add(key); allJobs.push(doc); }
     }
-  } catch (e) {}
+    } catch (e) { process.stderr.write(`  API error for keyword "${q}": ${e}\n`); }
+}
+
+if (allJobs.length < 50) {
+  const fallback = ['internship', 'junior', 'entry level', 'angajam', 'student', 'tester', 'operator', 'asistent', 'call center', 'customer support', 'data entry'];
+  process.stdout.write(`Only ${allJobs.length} jobs found, trying fallback keywords...\n`);
+  for (const q of fallback) {
+    try {
+      const r = await fetch(`https://api.peviitor.ro/v1/search/?q=${encodeURIComponent(q)}&page=1`);
+      const d = await r.json();
+      for (const doc of d.response?.docs || []) {
+        const key = doc.url || doc.title || JSON.stringify(doc);
+        if (!seen.has(key)) { seen.add(key); allJobs.push(doc); }
+      }
+    } catch (e) { process.stderr.write(`  API error for fallback "${q}": ${e}\n`); }
+  }
 }
 process.stdout.write(`Found ${allJobs.length} unique jobs total\n`);
 
@@ -114,7 +136,7 @@ ${jobList}`;
   process.stdout.write(`  Evaluating ${batch.length} jobs...\n`);
   const results = extractJsonArray(runOpencode(evalPrompt));
 
-  for (let i = 0; i < results.length; i++) {
+  for (let i = 0; i < Math.min(results.length, batch.length); i++) {
     if (results[i]?.match && matchedJobs.length < TARGET_MATCHED) {
       matchedJobs.push({
         url: batch[i].url,
