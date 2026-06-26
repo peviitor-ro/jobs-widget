@@ -29,12 +29,22 @@ async function main() {
   try {
     console.error('Fetching curriculum page...');
     const raw = execSync(`curl -sL "${source}"`, { encoding: 'utf-8', timeout: 30000, shell: true });
-    const curriculumText = raw.substring(0, 80000);
-    console.error(`Fetched ${curriculumText.length} chars`);
+
+    // Strip HTML to clean text — remove scripts, styles, tags
+    const clean = raw
+      .replace(/<script[^>]*>.*?<\/script>/gis, '')
+      .replace(/<style[^>]*>.*?<\/style>/gis, '')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&[^;]+;/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+
+    const curriculumText = clean.substring(0, 50000);
+    console.error(`Fetched and cleaned: ${clean.length} chars → ${curriculumText.length} chars sent`);
 
     const prompt = `Esti un asistent care genereaza planuri de invatamant complete pentru facultati din Romania in format Markdown.
 
-Pe baza continutului de mai jos (HTML sau text extras de pe pagina de curriculum a facultatii), creeaza fisierul ${outputPath}.
+Pe baza textului extras de pe pagina de curriculum a facultatii (mai jos), creeaza fisierul ${outputPath}.
 
 Reguli stricte:
 - Pastreaza denumirea exacta a facultatii, specializarilor si disciplinelor
