@@ -1,7 +1,7 @@
-import { readFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { execSync } from 'child_process';
 
-const TAG_PATH = 'local_tag.md';
+const TAG_PATH = 'conf/local_tag.md';
 const AGENTS_DIR = 'agents';
 const AGENT_FILE = `${AGENTS_DIR}/student.md`;
 
@@ -19,11 +19,16 @@ if (!existsSync(AGENTS_DIR)) {
 
 const curriculum = readFileSync(filterPath, 'utf-8');
 
-const prompt = `Esti un generator de agenti studenti. Pe baza curriculumului unei facultati, generezi un fisier Markdown pentru un agent student care va analiza joburi.
+const prompt = `You are a generator of student agent markdown files.
 
-Scrie rezultatul direct in fisierul ${AGENT_FILE}.
+Your task: generate ONLY the markdown content for a student agent file, based on the curriculum below.
 
-URMATI EXACT aceasta structura:
+RULES - READ CAREFULLY:
+- Output ONLY the raw markdown content. NO greetings, NO explanations, NO "here is your file", NO "am generat", NO conversational text.
+- Do NOT say you wrote or generated anything. Just output the file content directly.
+- The output will be saved directly to a file. Any extra text will break the file.
+
+Follow this structure EXACTLY, replacing placeholders with real data from the curriculum:
 
 # Student Agent
 
@@ -33,7 +38,7 @@ You are **Student**, a student at the **FACULTATEA SI UNIVERSITATEA**.
 
 You are a hard-working student looking for job opportunities that match your studies.
 
-## Your Skills (from the TAG curriculum)
+## Your Skills (from the ${tag} curriculum)
 
 ### Category Name
 - skill from curriculum
@@ -58,15 +63,39 @@ When given a job description: analyze, match against your skills, score 0-100%, 
 }
 \`\`\`
 
-ACUM pe baza acestui curriculum:
+NOW, based on this curriculum:
 
 ${curriculum}
 
-Genereaza ${AGENT_FILE}. Numele agentului: "Student". Extrage skillurile din materii si grupeaza-le pe categorii logice. Engleza.`;
+Extract skills from the subjects above and group them into logical categories. Use English. Remember: output ONLY the markdown, nothing else.`;
 
 console.error(`Generating student agent for ${tag}...`);
-execSync(
-  `opencode run --model opencode/big-pickle --dangerously-skip-permissions ${JSON.stringify(prompt)}`,
-  { timeout: 900000, encoding: 'utf-8', maxBuffer: 50 * 1024 * 1024, shell: true, stdio: 'inherit' }
+const stdout = execSync(
+  `opencode run --model opencode/big-pickle --format json --dangerously-skip-permissions`,
+  { input: prompt, timeout: 900000, encoding: 'utf-8', maxBuffer: 50 * 1024 * 1024, shell: true }
 );
-console.error(`Done — check ${AGENT_FILE}`);
+
+let content = '';
+for (const line of stdout.split('\n').filter(l => l.trim())) {
+  try {
+    const ev = JSON.parse(line);
+    if (ev.type === 'text') content += ev.part?.text || '';
+  } catch {}
+}
+
+if (!content) {
+  console.error('No output generated from opencode');
+  process.exit(1);
+}
+
+content = content.trim();
+
+// Validate content — reject conversational responses that don't contain markdown agent structure
+const conversations = ['am generat', 'here is your', 'i have generated', 'i wrote', 'fisierul a fost generat', 'you can find'];
+if (!content.startsWith('#') || conversations.some(c => content.toLowerCase().includes(c))) {
+  console.error(`Output looks like a conversational response, not file content. First 200 chars:\n${content.slice(0, 200)}`);
+  process.exit(1);
+}
+
+writeFileSync(AGENT_FILE, content, 'utf-8');
+console.error(`Done — wrote ${AGENT_FILE} (${content.length} chars)`);

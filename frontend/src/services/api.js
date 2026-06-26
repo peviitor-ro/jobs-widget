@@ -1,4 +1,4 @@
-import localJobs from "../../jobs_100.json";
+import localJobs from "../../../jobs_100.json";
 
 const gradients = [
   "from-blue-500 to-cyan-600",
@@ -29,24 +29,7 @@ function getLogoBg(companyName) {
 }
 
 export async function getJobs() {
-  let jobsData;
-  try {
-    const response = await fetch(
-      "https://raw.githubusercontent.com/peviitor-ro/ClujHackathon2026/refs/heads/main/jobs_100.json",
-    );
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    jobsData = await response.json();
-  } catch (error) {
-    console.warn(
-      "Failed to fetch remote jobs, falling back to local dataset:",
-      error,
-    );
-    jobsData = localJobs;
-  }
-
-  return jobsData.map((job, index) => {
+  return localJobs.map((job, index) => {
     const company = job.company || "Companie Necunoscută";
     return {
       id: job._version_ ? `${job._version_}-${index}` : `job-${index}`,
