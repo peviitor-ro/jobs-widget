@@ -34,6 +34,6 @@ jobs:
           else
             git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
             git commit -m "auto: actualizeaza jobs.json ($(date -u +%Y-%m-%d))"
-            git pull --rebase
+            git pull --rebase --autostash
             git push
           fi

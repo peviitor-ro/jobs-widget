@@ -42,6 +42,6 @@ jobs:
           else
             TAG="${{ steps.parse.outputs.tag }}"
             git commit -m "auto: genereaza student.md pentru $TAG"
-            git pull --rebase
+            git pull --rebase --autostash
             git push
           fi
