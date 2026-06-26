@@ -90,7 +90,10 @@ if (!content) {
 
 content = content.trim();
 
-// Validate content — reject conversational responses that don't contain markdown agent structure
+// Strip markdown code block wrapper if present (```markdown ... ```)
+content = content.replace(/^```markdown\s*\n?/i, '').replace(/\n?```\s*$/i, '').trim();
+
+// Validate content — reject conversational responses
 const conversations = ['am generat', 'here is your', 'i have generated', 'i wrote', 'fisierul a fost generat', 'you can find'];
 if (!content.startsWith('#') || conversations.some(c => content.toLowerCase().includes(c))) {
   console.error(`Output looks like a conversational response, not file content. First 200 chars:\n${content.slice(0, 200)}`);
