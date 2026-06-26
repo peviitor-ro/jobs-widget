@@ -1,5 +1,7 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { readFileSync, writeFileSync, mkdtempSync, existsSync } from 'fs';
 import { execSync } from 'child_process';
+import { tmpdir } from 'os';
+import { join } from 'path';
 
 const TAG_FILE = 'conf/local_tag.md';
 
@@ -18,11 +20,69 @@ function readTagFile() {
   return { tag, source };
 }
 
-function runOpencodeWithRetry(prompt, timeoutMs = 900000) {
+function runOpencode(prompt, timeoutMs = 900000) {
   const cmd = `opencode run --model opencode/big-pickle --dangerously-skip-permissions`;
-  const stdout = execSync(cmd,
+  return execSync(cmd,
     { input: prompt, timeout: timeoutMs, encoding: 'utf-8', maxBuffer: 50 * 1024 * 1024, shell: true });
-  return stdout;
+}
+
+function stripHtml(html) {
+  return html
+    .replace(/<script[^>]*>.*?<\/script>/gis, '')
+    .replace(/<style[^>]*>.*?<\/style>/gis, '')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/&[^;]+;/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function findPdfUrls(html, source) {
+  const patterns = [
+    /href="([^"]*Plan[_ ]?[Ii][Nn][Vv][^"]*\.pdf)"/g,
+    /href="([^"]*FL[_ ]?[Pp][Ll][Aa][Nn][^"]*\.pdf)"/g,
+    /href="([^"]*[Pp]rogram[ae][^"]*\.pdf)"/g,
+    /href="([^"]*[Cc]urricul[^"]*\.pdf)"/g,
+    /href="([^"]*[Dd]isciplin[^"]*\.pdf)"/g,
+    /href="([^"]*[Mm]aterii[^"]*\.pdf)"/g,
+    /href="([^"]*[Oo]bligator[^"]*\.pdf)"/g,
+    /href="([^"]*[Oo]ptiona[^"]*\.pdf)"/g,
+    /href="([^"]*[Ss]emestru[^"]*\.pdf)"/g,
+  ];
+  const found = new Set();
+  for (const pat of patterns) {
+    for (const m of html.matchAll(pat)) {
+      if (m[1]) found.add(m[1].startsWith('http') ? m[1] : new URL(m[1], source).href);
+    }
+  }
+  // Fallback: any PDF if too few found
+  if (found.size <= 2) {
+    for (const m of html.matchAll(/href="([^"]*\.pdf)"/gi)) {
+      if (m[1]) found.add(m[1].startsWith('http') ? m[1] : new URL(m[1], source).href);
+    }
+  }
+  return [...found];
+}
+
+function downloadAndExtractPdfs(urls, destDir) {
+  const texts = [];
+  for (const url of urls) {
+    const name = url.split('/').pop() || `pdf_${texts.length}.pdf`;
+    const pdfPath = join(destDir, name);
+    try {
+      execSync(`curl -sL "${url}" -o "${pdfPath}"`, { timeout: 30000, shell: true });
+      if (existsSync(pdfPath) && readFileSync(pdfPath).length > 1000) {
+        const txtPath = join(destDir, name.replace(/\.pdf$/i, '') + '.txt');
+        execSync(`pdftotext -layout "${pdfPath}" "${txtPath}"`, { timeout: 60000, shell: true });
+        if (existsSync(txtPath)) {
+          const text = readFileSync(txtPath, 'utf-8').trim();
+          if (text.length > 50) texts.push(text);
+        }
+      }
+    } catch (e) {
+      console.error(`  Failed to process ${name}: ${e.message}`);
+    }
+  }
+  return texts;
 }
 
 async function main() {
@@ -33,22 +93,37 @@ async function main() {
   console.error(`Source: ${source}`);
   console.error(`Output: ${outputPath}`);
 
+  const tmpDir = mkdtempSync(join(tmpdir(), 'curric-'));
   try {
     console.error('Fetching curriculum page...');
     const raw = execSync(`curl -sL "${source}"`, { encoding: 'utf-8', timeout: 30000, shell: true });
 
-    // Strip HTML to clean text
-    const clean = raw
-      .replace(/<script[^>]*>.*?<\/script>/gis, '')
-      .replace(/<style[^>]*>.*?<\/style>/gis, '')
-      .replace(/<[^>]+>/g, ' ')
-      .replace(/&[^;]+;/g, ' ')
-      .replace(/\s+/g, ' ')
-      .trim();
+    // Try PDFs first (more structured data)
+    const pdfUrls = findPdfUrls(raw, source);
+    console.error(`Found ${pdfUrls.length} curriculum PDFs`);
+    let curriculumText = '';
 
-    console.error(`Fetched and cleaned: ${clean.length} chars`);
+    if (pdfUrls.length > 0) {
+      console.error('Downloading and extracting PDFs...');
+      const pdfTexts = downloadAndExtractPdfs(pdfUrls, tmpDir);
+      if (pdfTexts.length > 0) {
+        curriculumText = pdfTexts.join('\n\n---\n\n');
+        console.error(`Extracted ${curriculumText.length} chars from PDFs`);
+      }
+    }
 
-    // Phase 1: extract specializations + subjects as JSON (fast, small output)
+    // Fallback: use stripped HTML if no usable PDF text
+    if (!curriculumText) {
+      console.error('No PDF text, falling back to HTML text extraction...');
+      curriculumText = stripHtml(raw);
+      console.error(`Stripped HTML: ${curriculumText.length} chars`);
+    }
+
+    if (!curriculumText) {
+      throw new Error('No curriculum text could be extracted (PDF or HTML)');
+    }
+
+    // Phase 1: extract structure as JSON via opencode
     const extractPrompt = `Extract the curriculum data from the text below as a JSON object.
 
 Return ONLY valid JSON with this structure:
@@ -83,12 +158,11 @@ Rules:
 - Output ONLY the JSON, no other text
 
 Text:
-${clean.substring(0, 40000)}`;
+${curriculumText.substring(0, 40000)}`;
 
-    console.error('Phase 1: extracting curriculum structure...');
-    const jsonOut = runOpencodeWithRetry(extractPrompt, 900000);
+    console.error('Phase 1: extracting curriculum structure via opencode...');
+    const jsonOut = runOpencode(extractPrompt, 900000);
 
-    // Parse the JSON from the output
     const jsonMatch = jsonOut.match(/\{[\s\S]*\}/);
     if (!jsonMatch) {
       console.error('Could not extract JSON from opencode output');
@@ -97,7 +171,7 @@ ${clean.substring(0, 40000)}`;
     }
     const curriculum = JSON.parse(jsonMatch[0]);
 
-    // Phase 2: render markdown from the structured JSON
+    // Phase 2: render markdown locally
     let md = `# ${curriculum.faculty} — ${curriculum.university}\n`;
     md += `# Planuri de învățământ ${curriculum.years} (Licență)\n\n`;
     md += `> **Sursă:** ${source}\n\n`;
@@ -109,7 +183,6 @@ ${clean.substring(0, 40000)}`;
 
     for (const spec of curriculum.specializations || []) {
       md += `\n---\n\n`;
-      const anchor = spec.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
       md += `## ${spec.name}\n\n`;
       for (const yr of spec.years || []) {
         for (const sem of yr.semesters || []) {
@@ -127,8 +200,8 @@ ${clean.substring(0, 40000)}`;
     writeFileSync(outputPath, md.trim() + '\n', 'utf-8');
     console.error(`Done — wrote ${outputPath} (${md.length} chars)`);
 
-  } catch (e) {
-    throw e;
+  } finally {
+    execSync(`rm -rf "${tmpDir}"`, { shell: true });
   }
 }
 

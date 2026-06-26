@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq curl
+          sudo apt-get install -y -qq poppler-utils curl
           npm install -g opencode-ai@latest
 
       - name: Parse local_tag.md
