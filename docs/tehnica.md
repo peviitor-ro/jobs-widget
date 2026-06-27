@@ -120,7 +120,7 @@ Arhitectura de design este orientată spre **performanță și utilitate pură**
 
 ## Baza de Date
 
-Joburile sunt stocate în `jobs_100.json` și încărcate de API-ul din `src/services/api.js`:
+Joburile sunt stocate în `jobs.json` și încărcate de API-ul din `src/services/api.js`:
 
 1. Se încearcă fetch din repository-ul GitHub (raw)
 2. La eșec (`fetch` nu e disponibil sau HTTP error), se face **fallback la fișierul local** importat direct

@@ -16,7 +16,7 @@ Pe scurt:
 
 ### 2. Corectezi tag-uri existente
 
-Dacă găsești un job greșit etichetat în `jobs_100.json`:
+Dacă găsești un job greșit etichetat în `jobs.json`:
 1. Fă un fork al repository-ului
 2. Corectează `f_tag`-ul
 3. Deschide un Pull Request
@@ -35,7 +35,7 @@ Orice clarificare în `README.md`, `AGENTS.md`, `STRUCTURE.md` sau `INSTRUCTIONS
 ## Rules
 
 - Respectă structura existentă a fișierelor JSON
-- Nu șterge câmpuri obligatorii din `jobs_100.json` (vezi `STRUCTURE.md`)
+- Nu șterge câmpuri obligatorii din `jobs.json` (vezi `STRUCTURE.md`)
 - Verifică întotdeauna că URL-urile returnă HTTP 200 înainte de commit
 - Folosește nume sugestive pentru branch-uri (`fix/typo-jobs`, `feat/new-agent-upt`)
 - Toate PR-urile trec prin code review

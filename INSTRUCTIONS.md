@@ -54,9 +54,9 @@ const skillsText = skills.map(s =>
 
 ---
 
-## 4. Adaugă f_tag în jobs_100.json
+## 4. Adaugă f_tag în jobs.json
 
-Pentru fiecare job din `jobs_100.json` care e **potrivit** pentru această persoană, adaugă:
+Pentru fiecare job din `jobs.json` care e **potrivit** pentru această persoană, adaugă:
 
 ```json
 "f_tag": ["NUME"]
@@ -78,7 +78,7 @@ Testează agentul direct cu opencode CLI:
 opencode run --agent NUME "Analyze this job: <job_description>"
 ```
 
-Sau procesează un job din `jobs_100.json`:
+Sau procesează un job din `jobs.json`:
 
 ```bash
 opencode run --agent NUME --file /tmp/job.txt \
@@ -91,7 +91,7 @@ opencode run --agent NUME --file /tmp/job.txt \
 
 ```
                     ┌─────────────────┐
-                    │  jobs_100.json  │
+                    │  jobs.json  │
                     │  (job listings) │
                     └────────┬────────┘
                              │
@@ -126,7 +126,7 @@ opencode run --agent NUME --file /tmp/job.txt \
 |--------|-----|
 | `filter/NUME.md` | Skills / curriculum pentru persoana NUME |
 | `agents/NUME.md` | Prompt pentru opencode agent (generat din comanda `opencode agent create`) |
-| `jobs_100.json` | Datele cu joburile și `f_tag`-urile asociate |
+| `jobs.json` | Datele cu joburile și `f_tag`-urile asociate |
 | `INSTRUCTIONS.md` | Acest document — ghidul complet |
 
 ---

@@ -37,25 +37,18 @@ function stripHtml(html) {
 }
 
 function findPdfUrls(html, source) {
-  const patterns = [
-    /href="([^"]*Plan[_ ]?[Ii][Nn][Vv][^"]*\.pdf)"/g,
-    /href="([^"]*FL[_ ]?[Pp][Ll][Aa][Nn][^"]*\.pdf)"/g,
-    /href="([^"]*[Pp]rogram[ae][^"]*\.pdf)"/g,
-    /href="([^"]*[Cc]urricul[^"]*\.pdf)"/g,
-    /href="([^"]*[Dd]isciplin[^"]*\.pdf)"/g,
-    /href="([^"]*[Mm]aterii[^"]*\.pdf)"/g,
-    /href="([^"]*[Oo]bligator[^"]*\.pdf)"/g,
-    /href="([^"]*[Oo]ptiona[^"]*\.pdf)"/g,
-    /href="([^"]*[Ss]emestru[^"]*\.pdf)"/g,
-  ];
   const found = new Set();
-  for (const pat of patterns) {
+  // Prioritize full curriculum PDFs (licenta, master, plan)
+  const priorityPatterns = [
+    /href="([^"]*\b(?:licenta|master|planuri?|curricul|disciplin|programa)\b[^"]*\.pdf)"/gi,
+  ];
+  for (const pat of priorityPatterns) {
     for (const m of html.matchAll(pat)) {
       if (m[1]) found.add(m[1].startsWith('http') ? m[1] : new URL(m[1], source).href);
     }
   }
-  // Fallback: any PDF if too few found
-  if (found.size <= 2) {
+  // Fallback: all PDFs if none matched
+  if (found.size === 0) {
     for (const m of html.matchAll(/href="([^"]*\.pdf)"/gi)) {
       if (m[1]) found.add(m[1].startsWith('http') ? m[1] : new URL(m[1], source).href);
     }

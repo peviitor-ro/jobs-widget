@@ -6,7 +6,7 @@
 peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  ──►  jobs_ada_matched.json
                                                                               │
                                                                               ▼
-                                                                      jobs_100.json (subset pentru frontend)
+                                                                      jobs.json (subset pentru frontend)
 ```
 
 1. **Surse joburi**: API-ul peviitor (`https://api.peviitor.ro/v1/search/`) interogat cu termeni ca `software`, `engineer`, `developer`, `programator`, `it`, `ai`, `data`, `embedded`, `automation`, `robot`, `python`, `java`, `web`, `internship`, `intern`, `junior`.
@@ -39,11 +39,11 @@ peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  
 
 ## Validare URL-uri
 
-Înainte de a publica `jobs_100.json`, toate URL-urile trebuie verificate să returneze HTTP 200 (nu 404). Script de test:
+Înainte de a publica `jobs.json`, toate URL-urile trebuie verificate să returneze HTTP 200 (nu 404). Script de test:
 
 ```bash
 node -e "
-const j = require('./jobs_100.json');
+const j = require('./jobs.json');
 async function check() {
   for (let i = 0; i < j.length; i++) {
     try {
@@ -82,6 +82,6 @@ Vezi `INSTRUCTIONS.md` — pașii sunt:
 | `agents/Medeea.md` | Profilul agentului Medeea (prompt + skill-uri) |
 | `filter/UTCNAC.md` | Curriculum-ul UTCN Automatică și Calculatoare |
 | `filter/UBVFMIIA.md` | Curriculum-ul UBV Informatică Aplicată |
-| `jobs_100.json` | Subset de joburi folosit de frontend (cu fallback local) |
+| `jobs.json` | Subset de joburi folosit de frontend (cu fallback local) |
 | `jobs_ada_matched.json` | Output complet după procesarea agenților |
-| `src/services/api.js` | Frontend: încarcă `jobs_100.json` din GitHub, cu fallback local |
+| `src/services/api.js` | Frontend: încarcă `jobs.json` din GitHub, cu fallback local |

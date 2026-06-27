@@ -1,6 +1,6 @@
-# Structura fișierului `jobs_100.json`
+# Structura fișierului `jobs.json`
 
-`jobs_100.json` este un array JSON care conține **100 de obiecte job**. Fiecare obiect reprezintă un anunț de loc de muncă agregat din diverse surse (ANOFM, OLX, bestjobs, publi24, jobviewtrack, hipo, etc.).
+`jobs.json` este un array JSON care conține **100 de obiecte job**. Fiecare obiect reprezintă un anunț de loc de muncă agregat din diverse surse (ANOFM, OLX, bestjobs, publi24, jobviewtrack, hipo, etc.).
 
 ---
 
