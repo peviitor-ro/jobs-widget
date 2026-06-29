@@ -3,62 +3,27 @@
 ## Fluxul datelor
 
 ```
-peviitor API  ──►  script (ada_check.mjs)  ──►  agenți (opencode)  ──►  jobs_ada_matched.json
-                                                                              │
-                                                                              ▼
-                                                                      jobs.json (subset pentru frontend)
+conf/local_tag.md  ──►  fetch_agent_jobs.mjs  ──►  opencode (student.md)  ──►  jobs.json
 ```
 
-1. **Surse joburi**: API-ul peviitor (`https://api.peviitor.ro/v1/search/`) interogat cu termeni ca `software`, `engineer`, `developer`, `programator`, `it`, `ai`, `data`, `embedded`, `automation`, `robot`, `python`, `java`, `web`, `internship`, `intern`, `junior`.
-2. **Script**: `scripts/ada_check.mjs` adună joburile unice, extrage descrierile, și le trimite agenților AI.
-3. **Agenți AI**: Fiecare agent analizează descrierile și decide dacă jobul se potrivește cu skill-urile persoanei pe care o reprezintă.
-4. **Rezultat**: Joburile matcheate primesc `f_tag`-ul agentului respectiv și sunt salvate în `jobs_ada_matched.json`.
+1. **Tag**: `conf/local_tag.md` conține tag-ul facultății (ex: `UBBFPSE`) și sursa curriculum-ului.
+2. **Script**: `scripts/fetch_agent_jobs.mjs` citește profilul agentului, generează cuvinte cheie, interoghează API-ul peviitor, extrage descrierile joburilor și le trimite agentului AI.
+3. **Agent AI**: `agents/student.md` analizează fiecare job și decide dacă se potrivește cu skill-urile persoanei.
+4. **Rezultat**: Joburile potrivite sunt salvate în `jobs.json` cu `f_tag`, `matchPercentage` și `reason`.
 
 ---
 
-## Agenți existenți
+## Agent curent
 
 | Agent | Fișier profil | `f_tag` | Facultatea |
 |-------|---------------|---------|------------|
-| **Ada** | `agents/Ada.md` | `UTCNAC` | Automatică și Calculatoare, UTCN |
-| **Medeea** | `agents/Medeea.md` | `UBVFMIIA` | Informatică Aplicată, Univ. Transilvania Brașov |
+| **Student** | `agents/student.md` | `UBBFPSE` | Psihologie și Științe ale Educației, UBB |
 
-### Ada
+### Student
 
-- Studentă la **Facultatea de Automatică și Calculatoare, UTCN**
-- Skill-uri: programare (C/C++/Java/Python), AI/ML/Deep Learning/Computer Vision, embedded, automatizări, rețele, securitate
-- Rulează pe promptul din `scripts/ada_check.mjs` și filtrează joburi potrivite pentru nivel internship/junior/mid
-
-### Medeea
-
-- Studentă la **Informatică Aplicată, Universitatea Transilvania din Brașov**
-- Skill-uri: programare (C/C++/Java/Python/OOP), web (Angular, .Net), mobile (Android), AI/ML/NLP/LLM, cloud, testare, Unity, grafică 3D
-- Rulează pe promptul din `scripts/ada_check.mjs` și filtrează joburi potrivite pentru nivel internship/junior/mid
-
----
-
-## Validare URL-uri
-
-Înainte de a publica `jobs.json`, toate URL-urile trebuie verificate să returneze HTTP 200 (nu 404). Script de test:
-
-```bash
-node -e "
-const j = require('./jobs.json');
-async function check() {
-  for (let i = 0; i < j.length; i++) {
-    try {
-      const r = await fetch(j[i].url, { method: 'HEAD', headers: { 'User-Agent': 'Mozilla/5.0 Chrome/120' }, signal: AbortSignal.timeout(10000) });
-      console.log((i+1) + '. ' + r.status + ' ' + j[i].title);
-    } catch(e) {
-      console.log((i+1) + '. ERROR ' + j[i].title + ' - ' + e.message.substring(0,60));
-    }
-  }
-}
-check();
-"
-```
-
-Orice URL cu status diferit de 200 trebuie înlocuit sau eliminat înainte de commit.
+- Student la **Facultatea de Psihologie și Științe ale Educației, Universitatea Babeș-Bolyai**
+- Skill-uri: competențe socio-emoționale, comunicare & rezolvare conflicte, dezvoltare personală, abilități sociale
+- Rulează prin `scripts/fetch_agent_jobs.mjs` și filtrează joburi potrivite pentru nivel internship/junior/mid
 
 ---
 
@@ -66,10 +31,10 @@ Orice URL cu status diferit de 200 trebuie înlocuit sau eliminat înainte de co
 
 Vezi `INSTRUCTIONS.md` — pașii sunt:
 
-1. Creează fișierul de profil în `filter/NUME.md` (competențele persoanei)
-2. Creează agentul în opencode
-3. Actualizează workflow-ul n8n
-4. Adaugă `f_tag` în jobs
+1. Creează fișierul de profil în `filter/NUME.md` (competențele persoanei / curriculum)
+2. Creează agentul în `agents/NUME.md` (prompt + skill-uri)
+3. Actualizează `conf/local_tag.md` cu tag-ul corespunzător
+4. Rulează `node scripts/fetch_agent_jobs.mjs` pentru a genera `jobs.json`
 
 ---
 
@@ -77,11 +42,8 @@ Vezi `INSTRUCTIONS.md` — pașii sunt:
 
 | Fișier | Rol |
 |--------|-----|
-| `scripts/ada_check.mjs` | Script principal: extrage joburi din API, rulează agenții, generează `jobs_ada_matched.json` |
-| `agents/Ada.md` | Profilul agentului Ada (prompt + skill-uri) |
-| `agents/Medeea.md` | Profilul agentului Medeea (prompt + skill-uri) |
-| `filter/UTCNAC.md` | Curriculum-ul UTCN Automatică și Calculatoare |
-| `filter/UBVFMIIA.md` | Curriculum-ul UBV Informatică Aplicată |
-| `jobs.json` | Subset de joburi folosit de frontend (cu fallback local) |
-| `jobs_ada_matched.json` | Output complet după procesarea agenților |
-| `src/services/api.js` | Frontend: încarcă `jobs.json` din GitHub, cu fallback local |
+| `scripts/fetch_agent_jobs.mjs` | Script principal: generează keywords, interoghează API, rulează agentul, salvează `jobs.json` |
+| `agents/student.md` | Profilul agentului Student (prompt + skill-uri) |
+| `filter/UBBFPSE.md` | Curriculum-ul Facultății de Psihologie și Științe ale Educației, UBB |
+| `conf/local_tag.md` | Tag-ul facultății și sursa curriculum-ului |
+| `jobs.json` | Joburi matcheate cu `f_tag`, `matchPercentage` și `reason` |
