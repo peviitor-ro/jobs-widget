@@ -21,25 +21,17 @@ Colectăm toate locurile de muncă de pe [peviitor.ro](https://peviitor.ro) și,
 4. Match-uim tag-urile joburilor cu profilurile instituțiilor de învățământ
 5. Generăm recomandări personalizate per instituție
 
-## Configurare
+## Pentru facultăți
 
-### `conf/local_tag.md`
+Dacă reprezinți o facultate și vrei să folosești acest widget, urmează ghidul pas cu pas din [docs/pentru-facultati.md](docs/pentru-facultati.md).
 
-După ce ai făcut fork la repo, în `conf/local_tag.md` scriem tag-ul folosit de această facultate. Tot aici punem și sursa de unde își va lua agentul materiile și va deduce skillurile studentului.
-
-Format:
-```
-TAG
-sursa: exemplu.com
-```
-
-### `filter/NUME.md`
-
-În directorul `filter/` punem un fișier `.md` care are ca nume tag-ul menționat în `conf/local_tag.md`, cu lista de materii. Folosind sursa să extragem materiile + cursurile + să deducem skillurile studentului. Acest fișier va fi generat cu un prompt în opencode prin GitHub Actions.
-
-### `agents/student.md`
-
-`agents/student.md` va conține un prompt care va fi inspirat din agenții existenți și va fi personalizat pe baza celor extrase în `filter/`. Va fi generat cu un prompt de opencode și rulat în GitHub Actions.
+Pe scurt:
+1. Rulează **Genereaza Tag Unic Facultate** din Actions
+2. Creează un repository nou folosind **Use this template**
+3. Creează `conf/local_tag.md` cu tag-ul și sursa curriculum-ului
+4. Rulează **Full Pipeline** din Actions
+5. Activează GitHub Pages (source: GitHub Actions)
+6. Integrează `<iframe>` pe site-ul facultății
 
 ## Widget Incorporabil
 
